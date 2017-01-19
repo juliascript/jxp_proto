@@ -10,10 +10,10 @@
 		A328965D1E300E4600C543EA /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328965C1E300E4600C543EA /* Issue.swift */; };
 		A32896631E30267600C543EA /* IssueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32896621E30267600C543EA /* IssueTableViewController.swift */; };
 		A36D00AC1E2F192B0061BB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D00AB1E2F192B0061BB9D /* AppDelegate.swift */; };
-		A36D00AE1E2F192B0061BB9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D00AD1E2F192B0061BB9D /* ViewController.swift */; };
 		A36D00B11E2F192B0061BB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36D00AF1E2F192B0061BB9D /* Main.storyboard */; };
 		A36D00B31E2F192B0061BB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36D00B21E2F192B0061BB9D /* Assets.xcassets */; };
 		A36D00B61E2F192B0061BB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36D00B41E2F192B0061BB9D /* LaunchScreen.storyboard */; };
+		A3F22AA51E3060610053AEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F22AA41E3060610053AEC7 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		A32896621E30267600C543EA /* IssueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTableViewController.swift; sourceTree = "<group>"; };
 		A36D00A81E2F192B0061BB9D /* juxtaposed_prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juxtaposed_prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36D00AB1E2F192B0061BB9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A36D00AD1E2F192B0061BB9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A36D00B01E2F192B0061BB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A36D00B21E2F192B0061BB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36D00B51E2F192B0061BB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36D00B71E2F192B0061BB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F22AA41E3060610053AEC7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		A32896611E300E7B00C543EA /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A36D00AD1E2F192B0061BB9D /* ViewController.swift */,
+				A3F22AA41E3060610053AEC7 /* ViewController.swift */,
 				A32896621E30267600C543EA /* IssueTableViewController.swift */,
 			);
 			name = "View Controller";
@@ -167,9 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36D00AE1E2F192B0061BB9D /* ViewController.swift in Sources */,
 				A32896631E30267600C543EA /* IssueTableViewController.swift in Sources */,
 				A36D00AC1E2F192B0061BB9D /* AppDelegate.swift in Sources */,
+				A3F22AA51E3060610053AEC7 /* ViewController.swift in Sources */,
 				A328965D1E300E4600C543EA /* Issue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 373244HPF5;
 				INFOPLIST_FILE = juxtaposed_prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.juliageist.juxtaposed-prototype";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 373244HPF5;
 				INFOPLIST_FILE = juxtaposed_prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.juliageist.juxtaposed-prototype";
 				PRODUCT_NAME = "$(TARGET_NAME)";
